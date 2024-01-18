@@ -1,0 +1,28 @@
+html,
+body,
+#root {
+  background: #000;
+  color: #fff;
+}
+.slide::after {
+  content: "";
+  height: 3px;
+  width: 0;
+  @apply bg-yellow-500 absolute left-0 -bottom-2;
+}
+
+.slide:hover::after {
+  animation: animate-slide .5s;
+}
+
+@keyframes animate-slide {
+  0% {
+    width: 2px;
+    opacity: 0;
+  }
+  100% {
+    width: 100%;
+    opacity: 1;
+  }
+}
+
