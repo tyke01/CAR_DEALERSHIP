@@ -26,3 +26,6 @@ body,
   }
 }
 
+.label{
+  @apply text-slate-500 font-semibold text-xs
+}

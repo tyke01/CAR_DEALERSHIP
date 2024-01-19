@@ -1,4 +1,5 @@
 import { CarFilter, Hero } from "../components";
+import About from "../components/About";
 
 
 const Home = () => {
@@ -6,6 +7,8 @@ const Home = () => {
   <div>
     <Hero />
     <CarFilter />
+
+    <About />
   </div>
   );
 };
