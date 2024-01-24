@@ -1,15 +1,29 @@
-import { CarFilter, Hero } from "../components";
+import {
+  CarFilter,
+  Hero,
+  Featured,
+  Offers,
+  BestSelling,
+  Testimonials,
+} from "../components";
 import About from "../components/About";
-
 
 const Home = () => {
   return (
-  <div>
-    <Hero />
-    <CarFilter />
+    <main>
+      <Hero />
+      <CarFilter />
 
-    <About />
-  </div>
+      <About />
+
+      <Featured />
+
+      <Offers />
+
+      <BestSelling />
+
+      <Testimonials />
+    </main>
   );
 };
 

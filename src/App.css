@@ -4,28 +4,20 @@ body,
   background: #000;
   color: #fff;
 }
+
 .slide::after {
   content: "";
   height: 3px;
   width: 0;
-  @apply bg-yellow-500 absolute left-0 -bottom-2;
+  @apply bg-yellow-500 absolute left-0 -bottom-2 transition-all ease-in-out duration-500;
 }
 
 .slide:hover::after {
-  animation: animate-slide .5s;
+  @apply w-full; 
 }
 
-@keyframes animate-slide {
-  0% {
-    width: 2px;
-    opacity: 0;
-  }
-  100% {
-    width: 100%;
-    opacity: 1;
-  }
-}
 
 .label{
   @apply text-slate-500 font-semibold text-xs
 }
+

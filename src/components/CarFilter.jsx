@@ -6,7 +6,7 @@ const CarFilter = () => {
   const [rangeValue, setRangeValue] = useState(50); // Initial value
 
   return (
-    <section className=" px-16 lg:px-32 py-10">
+    <section className=" px-10 lg:px-32 py-10 w-full">
       <div className="flex flex-col rounded-md justify-center bg-yellow-500 px-5 py-5">
         <div className="flex items-center self-center bg-black rounded-md px-4 py-2 gap-2">
           <div className="bg-white w-1 h-[50px]"></div>
@@ -104,9 +104,9 @@ const CarFilter = () => {
               </div>
             </div>
 
-            <div className="flex items-center gap-4">
-              <p className="flex flex-col">
-                PRICE RANGE <span> {rangeValue}</span>
+            <div className="flex flex-col lg:flex-row items-center gap-4">
+              <p className="flex lg:flex-col gap-5">
+                PRICE RANGE <span className="font-bold"> {rangeValue}</span>
               </p>
               <input
                 type="range"
@@ -151,7 +151,7 @@ const CarFilter = () => {
             </select>
           </div>
 
-          <div className="flex items-center gap-4">
+          <div className="flex flex-col lg:flex-row items-center gap-4">
             <p className="uppercase text-xs font-semibold">advanced search</p>
             <button className="flex items-center gap-2 bg-black text-white px-4 py-3 rounded-full font-bold hover:shadow-lg hover:shadow-yellow-900 transition-all duration-200">
               SEARCH THE VEHICLE{" "}

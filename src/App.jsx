@@ -10,6 +10,7 @@ function App() {
     <BrowserRouter>
       <div>
         <Navbar />
+        {/* <NavtTest /> */}
       </div>
 
       <div>
