@@ -139,3 +139,42 @@ export const BestSeller = [
         type: "manual",
     },
 ]
+
+
+export const FooterAutos = [
+    {
+        id: 1,
+        img: "/images/car-2.jpg",
+        name: "MERCEDES-AMG GT S",
+        mileage: "35,000 KM",
+    },
+    {
+        id: 2,
+        img: "/images/car-4.jpg",
+        name: "MERCEDES-AMG GT S",
+        mileage: "35,000 KM",
+    },
+    {
+        id: 3,
+        img: "/images/car-1.jpg",
+        name: "MERCEDES-AMG GT S",
+        mileage: "35,000 KM",
+    },
+]
+export const FooterTwitter = [
+    {
+        id: 1,
+        desc: "Duis scelerisque aliquet ante donec libero pede porttitor dacu",
+        time: "20 minutes ago",
+    },
+    {
+        id: 2,
+        desc: "Duis scelerisque aliquet ante donec libero pede porttitor dacu",
+        time: "20 minutes ago",
+    },
+    {
+        id: 3,
+        desc: "Duis scelerisque aliquet ante donec libero pede porttitor dacu",
+        time: "20 minutes ago",
+    },
+]

@@ -5,6 +5,7 @@ import {
   Offers,
   BestSelling,
   Testimonials,
+  Footer,
 } from "../components";
 import About from "../components/About";
 
@@ -12,6 +13,7 @@ const Home = () => {
   return (
     <main>
       <Hero />
+      
       <CarFilter />
 
       <About />
@@ -23,6 +25,8 @@ const Home = () => {
       <BestSelling />
 
       <Testimonials />
+
+      <Footer />
     </main>
   );
 };

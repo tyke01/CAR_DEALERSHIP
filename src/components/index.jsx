@@ -4,5 +4,6 @@ export { default as CarFilter } from "./CarFilter";
 export { default as Hero } from "./Hero";
 export { default as Featured } from "./Featured";
 export { default as Offers } from "./Offers";
-export {default as BestSelling} from "./BestSelling";
-export {default as Testimonials} from "./Testimonials"
+export { default as BestSelling } from "./BestSelling";
+export { default as Testimonials } from "./Testimonials";
+export { default as Footer } from "./Footer";
