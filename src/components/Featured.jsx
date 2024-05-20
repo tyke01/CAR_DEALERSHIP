@@ -32,7 +32,7 @@ const featured = () => {
     <section className="flex flex-col">
       <div className="flex items-center self-center bg-black rounded-md px-4 py-2 gap-2">
           <div className="bg-white w-1 h-[50px]"></div>
-          <h1 className="font-bold text-4xl text-yellow-500">
+          <h1 className="font-bold text-3xl lg:text-4xl text-yellow-500">
             Featured Vehicles
           </h1>
           <div className="bg-white w-1 h-[50px]"></div>

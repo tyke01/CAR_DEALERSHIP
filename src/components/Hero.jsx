@@ -53,7 +53,7 @@ const Hero = () => {
           </ul>
           <div className="w-[1px] h-full bg-yellow-500"></div>
           <div className="flex flex-col">
-            <div className="lg:text-7xl text-6xl flex flex-col font-bold">
+            <div className="lg:text-7xl text-5xl flex flex-col font-bold">
               <span>LUXURY</span>
               <span>LIFESTYLE</span>
               <span>CARS</span>

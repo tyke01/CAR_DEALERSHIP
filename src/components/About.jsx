@@ -19,12 +19,12 @@ const About = () => {
           {AboutGrid.map((about) => (
             <div
               key={about.id}
-              className="flex items-center gap-2 border lg:px-3 lg:py-5 w-[180px] lg:w-[250px]"
+              className="flex items-center gap-2 border px-1 lg:px-3 lg:py-5 w-[135px] lg:w-[250px]"
             >
-              <div className="text-6xl lg:text-8xl">{about.icon}</div>
+              <div className="text-5xl lg:text-8xl">{about.icon}</div>
               <div className="flex flex-col">
-                <span className="text-3xl lg:text-4xl font-bold">{about.number}</span>
-                <span>{about.text}</span>
+                <span className="text-2xl lg:text-4xl font-bold">{about.number}</span>
+                <span className="text-xs md:text-base">{about.text}</span>
               </div>
             </div>
           ))}

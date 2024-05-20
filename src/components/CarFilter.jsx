@@ -6,7 +6,7 @@ const CarFilter = () => {
   const [rangeValue, setRangeValue] = useState(50); // Initial value
 
   return (
-    <section className=" px-10 lg:px-32 py-10 w-full">
+    <section className=" px-5 lg:px-32 py-10 w-full">
       <div className="flex flex-col rounded-md justify-center bg-yellow-500 px-5 py-5">
         <div className="flex items-center self-center bg-black rounded-md px-4 py-2 gap-2">
           <div className="bg-white w-1 h-[50px]"></div>
