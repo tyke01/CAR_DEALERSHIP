@@ -13,7 +13,7 @@ const Footer = () => {
     <footer className="flex flex-col items-center justify-center lg:px-28 px-10 py-5 bg-[#111111]">
       <div className=" flex flex-col lg:flex-row justify-center items-center gap-14">
         {/* section 1 */}
-        <div className="flex lg:flex-col gap-2 lg:w-[300px] px-5 py-2">
+        <div className="flex flex-col lg:flex-row gap-2 lg:w-[300px] px-5 py-2">
           {/*  */}
           <div className="flex flex-col justify-start">
             <div className="flex items-center self-center  rounded-md px-4 py-2 gap-3 w-full">

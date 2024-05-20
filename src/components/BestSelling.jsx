@@ -25,10 +25,14 @@ const BestSelling = () => {
           <div className="bg-white w-1 h-[50px]"></div>
         </div>
 
-        <div className="w-full mt-5 grid grid-cols-2 lg:grid-cols-3 gap-3">
+        <div className="w-full mt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
           {BestSeller.map((sell) => (
             <div key={sell.id} className="bg-[#111111]">
-              <img src={sell.image} alt="" className="w-[350px] lg:w-[300px] h-[150px] object-cover" />
+              <img
+                src={sell.image}
+                alt=""
+                className="w-[350px] lg:w-[300px] h-[150px] object-cover"
+              />
               <div className="flex flex-col px-2 py-5 gap-4">
                 <span className="text-xs text-slate-400">
                   REGISTERED {sell.registered}
