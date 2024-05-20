@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer className="flex flex-col items-center justify-center lg:px-28 px-10 py-5 bg-[#111111]">
-      <div className=" flex justify-center items-center gap-14">
+      <div className=" flex flex-col lg:flex-row justify-center items-center gap-14">
         {/* section 1 */}
         <div className="flex lg:flex-col gap-2 lg:w-[300px] px-5 py-2">
           {/*  */}
@@ -130,48 +130,48 @@ const Footer = () => {
       {/* Contact Section */}
       <hr className="bg-slate-300 w-full my-3" />
 
-      <div className="flex flex-col justify-center  lg:flex-row">
+      <div className="flex flex-col items-center justify-center  lg:flex-row">
         <div className="flex items-center self-center  rounded-md px-4 py-2 gap-3 w-[300px]">
           <div className="bg-white w-1 h-[20px]" />
           <h1 className="font-bold text-sm text-yellow-500">CONTACT US</h1>
           <div className="bg-white w-1 h-[20px]" />
         </div>
 
-        <div className="flex items-center gap-4 w-full">
-            <div className="flex items-center gap-2">
-                <MdLocationOn />
-                <span className="text-xs">Nairobi Kenya</span>
-            </div>
-            <div className="flex items-center gap-2">
-                <BiPhone />
-                <span className="text-xs">+253 123 456 789</span>
-            </div>
-            <div className="flex items-center gap-2">
-                <MdEmail />
-                <span className="text-xs">Yvonneauto@yahoo.com</span>
-            </div>
-            <div className="flex items-center gap-2">
-                <FaAddressCard />
-                <span className="text-xs">5111-10541</span>
-            </div>
+        <div className="flex flex-col lg:flex-row gap-4 w-full px-4">
+          <div className="flex items-center gap-2">
+            <MdLocationOn />
+            <span className="text-xs">Nairobi Kenya</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <BiPhone />
+            <span className="text-xs">+253 123 456 789</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <MdEmail />
+            <span className="text-xs">Yvonneauto@yahoo.com</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <FaAddressCard />
+            <span className="text-xs">5111-10541</span>
+          </div>
         </div>
       </div>
 
       <hr className="bg-slate-300 w-full my-3" />
 
-      <div className="flex items-center justify-between bg-black w-full">
-      <Link to="/" className="font-bold text-2xl flex border">
-            <p className="text-black  bg-yellow-500  px-2 py-3">
-              <span className="">Yvo</span>nne
-            </p>{" "}
-            <p className=" py-3 px-2 text-white">
-              <span className="">Aut</span>o
-            </p>
-          </Link>
+      <div className="flex flex-col lg:flex-row items-center justify-between bg-black w-full">
+        <Link to="/" className="font-bold text-2xl flex border">
+          <p className="text-black  bg-yellow-500  px-2 py-3">
+            <span className="">Yvo</span>nne
+          </p>{" "}
+          <p className=" py-3 px-2 text-white">
+            <span className="">Aut</span>o
+          </p>
+        </Link>
 
-          <div className="mr-5 text-[#7b7b7b]">
-            &copy; Created by Victor Macharia
-          </div>
+        <div className="mr-5 text-[#7b7b7b]">
+          &copy; Created by Victor Macharia
+        </div>
       </div>
 
       {/*  */}
